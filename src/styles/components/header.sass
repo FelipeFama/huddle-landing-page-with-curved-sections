@@ -1,0 +1,16 @@
+@use '../mixins'
+
+header
+    @include mixins.center
+    -webkit-box-pack: justify
+    justify-content: space-between
+    padding: 3em 5em
+    width: 100%
+
+    figure img
+        height: 40px
+
+    button
+        background-color: transparent
+        @include mixins.button-header
+        
