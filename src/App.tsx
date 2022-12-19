@@ -1,4 +1,4 @@
-import About from "./components/About";
+import IntroText from "./components/IntroText";
 import Header from "./components/Header";
 import Illustration from "./components/Illustration";
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <About />
+      <IntroText />
       <Illustration />
     </>
   );
