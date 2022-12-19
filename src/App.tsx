@@ -1,6 +1,8 @@
-import IntroText from "./components/IntroText";
 import Header from "./components/Header";
-import Illustration from "./components/Illustration";
+import IntroText from "./components/modules/IntroText";
+import Illustration from "./components/modules/Illustration";
+import UserInfo from "./components/modules/UserInfo";
+import ContentInfo from "./components/ContentInfo";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <IntroText />
       <Illustration />
+      <UserInfo />
+      <ContentInfo />
     </>
   );
 }

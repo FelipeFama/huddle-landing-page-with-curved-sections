@@ -1,8 +1,8 @@
-import "../styles/components/introtext.sass";
+import "../../styles/components/modules/introtext.sass";
 
 export default function IntroText() {
   return (
-    <section className="about">
+    <section className="intro-text">
       <h1>Build The Community Your Fans Will Love</h1>
       <article>
         <p>

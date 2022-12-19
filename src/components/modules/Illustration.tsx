@@ -1,5 +1,5 @@
-import "../styles/components/illustration.sass";
-import mockups from "../assets/images/screen-mockups.svg";
+import "../../styles/components/modules/illustration.sass";
+import mockups from "/images/screen-mockups.svg";
 
 export default function Illustration() {
   return (

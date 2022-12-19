@@ -1,0 +1,12 @@
+@use '../../variables'
+@use '../../mixins'
+
+.user-info
+    @include mixins.center
+    -webkit-box-align: center
+    justify-content: space-around
+    padding: 0px 5em
+    h1
+        font-size: 4rem
+    p
+        color: variables.$gray
