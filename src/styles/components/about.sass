@@ -1,0 +1,16 @@
+@use '../variables'
+@use '../mixins'
+
+.about
+    text-align: center
+
+    h1
+        font-family: variables.$font-headings
+
+    article
+        font-size: 0.9rem
+        max-width: 420px
+        margin: 2em auto
+
+    button
+        @include mixins.button-sections
