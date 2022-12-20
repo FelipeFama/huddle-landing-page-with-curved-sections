@@ -1,0 +1,21 @@
+@use '../../variables'
+@use '../../mixins'
+
+.flowing-content
+    @include mixins.center
+    -webkit-box-align: center
+    justify-content: space-between
+    -webkit-box-pack: justify
+    padding: 0 8em
+    figure
+        width: 45%
+        img
+            width: 100%
+
+    article
+        width: 45%
+        h1
+            font-family: variables.$font-headings
+            margin-bottom: 0.5em
+        p
+            line-height: 1.4
