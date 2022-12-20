@@ -1,0 +1,39 @@
+@use '../../variables'
+@use '../../mixins'
+
+.grow-content
+    display: flex
+    flex-direction: column
+    width: 100%
+    margin: 1em 0
+    min-height: 50vh
+    .bg-section-top
+        background-image: url("/images/bg-section-top-desktop-1.svg")
+        background-repeat: no-repeat
+        background-size: 100% 100%
+        min-height: 200px
+    .bg-section-bottom
+        background-image: url("/images/bg-section-bottom-desktop-1.svg")
+        background-repeat: no-repeat
+        background-size: 100% 100%
+        min-height: 200px
+    .grow-container
+        @include mixins.center
+        -webkit-box-align: center
+        justify-content: space-around
+        background-color: variables.$very-pale-blue
+        padding: 0 8em
+        height: 100%
+        width: 100%
+        article
+            width: 45%
+            h1
+                font-family: variables.$font-headings
+                margin-bottom: 0.5em
+            p
+                line-height: 1.4
+
+        figure
+            width: 45%
+            img
+                width: 100%

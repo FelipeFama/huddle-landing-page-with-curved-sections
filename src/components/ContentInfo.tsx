@@ -1,30 +1,11 @@
 import "../styles/components/contentinfo.sass";
-import grow from "/images/illustration-grow-together.svg";
-import flowing from "/images/illustration-flowing-conversation.svg";
-import users from "/images/illustration-your-users.svg";
+import FirstInfo from "./modules/infos/FirstInfo";
 
 export default function ContentInfo() {
   return (
     <section className="content-info">
-      <div className="info-container">
-        <div className="bg-section-top"></div>
-        <div>
-          <article className="grow-container">
-            <div>
-              <h1>Grow Together</h1>
-              <p>
-                Generate meaningful discussions with your audience and build a
-                strong, loyal community. Think of the insightful conversations
-                you miss out on with a feedback form.
-              </p>
-            </div>
-            <figure>
-              <img src={grow} alt="illustration grow" />
-            </figure>
-          </article>
-            <div className="bg-section-top"></div>
-        </div>
-
+      <FirstInfo />
+      {/*
         <article className="flowing-container">
           <div>
             <h1>Flowing Conversations</h1>
@@ -52,7 +33,7 @@ export default function ContentInfo() {
             <img src={users} alt="illustration users" />
           </figure>
         </article>
-      </div>
+  */}
     </section>
   );
 }
