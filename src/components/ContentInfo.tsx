@@ -1,4 +1,4 @@
-import "../styles/components/contentinfo.sass";
+import "../styles/components/contentInfo.sass";
 import FirstInfo from "./modules/infos/FirstInfo";
 import SecondInfo from "./modules/infos/SecondInfo";
 import ThirdInfo from "./modules/infos/ThirdInfo";

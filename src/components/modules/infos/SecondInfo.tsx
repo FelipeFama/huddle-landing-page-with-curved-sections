@@ -1,5 +1,5 @@
 import flowing from "/images/illustration-flowing-conversation.svg";
-import "../../../styles/components/infos/secondinfo.sass";
+import "../../../styles/components/infos/secondInfo.sass";
 
 export default function SecondInfo() {
   return (
