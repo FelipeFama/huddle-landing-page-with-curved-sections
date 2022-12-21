@@ -1,0 +1,16 @@
+@use '../variables'
+@use '../mixins'
+
+.sign-up
+    @include mixins.center
+    -webkit-box-align: center
+    justify-content: center
+    flex-direction: column
+    -webkit-box-pack: center
+    text-align: center
+    min-height: 50vh
+    h1
+        font-family: variables.$font-headings
+        margin-bottom: 1em
+    button
+        @include mixins.button-sections

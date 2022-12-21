@@ -3,6 +3,7 @@ import IntroText from "./components/modules/IntroText";
 import Illustration from "./components/modules/Illustration";
 import UserInfo from "./components/modules/UserInfo";
 import ContentInfo from "./components/ContentInfo";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Illustration />
       <UserInfo />
       <ContentInfo />
+      <SignUp />
     </>
   );
 }

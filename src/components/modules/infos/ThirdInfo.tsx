@@ -3,7 +3,7 @@ import "../../../styles/components/infos/thirdinfo.sass";
 
 export default function ThirdInfo() {
   return (
-    <section className="users-content">
+    <article className="users-content">
       <div className="bg-section-top-2"></div>
       <div className="user-container">
         <article>
@@ -19,6 +19,6 @@ export default function ThirdInfo() {
         </figure>
       </div>
       <div className="bg-section-bottom-2"></div>
-    </section>
+    </article>
   );
 }

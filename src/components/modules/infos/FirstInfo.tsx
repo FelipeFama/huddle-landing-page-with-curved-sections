@@ -3,7 +3,7 @@ import "../../../styles/components/infos/firstinfo.sass";
 
 export default function FirstInfo() {
   return (
-    <section className="grow-content">
+    <article className="grow-content">
       <div className="bg-section-top"></div>
       <div className="grow-container">
         <article>
@@ -19,6 +19,6 @@ export default function FirstInfo() {
         </figure>
       </div>
       <div className="bg-section-bottom"></div>
-    </section>
+    </article>
   );
 }

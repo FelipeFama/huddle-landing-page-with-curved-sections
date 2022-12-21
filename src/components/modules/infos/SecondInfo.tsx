@@ -3,7 +3,7 @@ import "../../../styles/components/infos/secondinfo.sass";
 
 export default function SecondInfo() {
   return (
-    <section className="flowing-content">
+    <article className="flowing-content">
       <figure>
         <img src={flowing} alt="illustration flowing" />
       </figure>
@@ -14,6 +14,6 @@ export default function SecondInfo() {
           online? Our threads have just-in-time loading for a more natural flow.
         </p>
       </article>
-    </section>
+    </article>
   );
 }
