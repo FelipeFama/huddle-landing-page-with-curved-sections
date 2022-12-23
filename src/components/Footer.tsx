@@ -12,7 +12,7 @@ export default function Footer() {
     <IconContext.Provider value={{ color: "#fff", size: "3em" }}>
       <footer>
         <section className="footer-container">
-          <img src={logo} alt="logo" />
+          <img className="logo-footer" src={logo} alt="logo" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
             nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
@@ -36,6 +36,17 @@ export default function Footer() {
               <AiFillTwitterCircle />
             </li>
           </ul>
+        </section>
+        <section className="form-footer">
+          <h1>Newsletter</h1>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <form>
+            <input placeholder="Email Address" type="text" />
+            <button>Subscribe</button>
+          </form>
         </section>
       </footer>
     </IconContext.Provider>
