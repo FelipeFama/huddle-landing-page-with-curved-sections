@@ -35,7 +35,11 @@ footer
             display: flex
             list-style-type: none
             li
+                cursor: pointer
                 margin-right: 0.6em
+                transition: 0.5s ease-in-out
+                & :hover
+                    color: variables.$social-hover
     .form-footer
         width: 50%
         h1
