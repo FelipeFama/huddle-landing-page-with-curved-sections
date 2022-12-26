@@ -1,3 +1,4 @@
+import React from "react";
 import flowing from "/images/illustration-flowing-conversation.svg";
 import "../../../styles/components/infos/secondInfo.sass";
 

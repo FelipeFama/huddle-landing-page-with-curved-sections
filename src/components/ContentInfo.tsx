@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/components/contentInfo.sass";
 import FirstInfo from "./modules/infos/FirstInfo";
 import SecondInfo from "./modules/infos/SecondInfo";

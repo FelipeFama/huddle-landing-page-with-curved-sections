@@ -1,3 +1,4 @@
+import React from "react";
 import "../../styles/components/modules/introText.sass";
 
 export default function IntroText() {

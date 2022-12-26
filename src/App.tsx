@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./components/Header";
 import IntroText from "./components/modules/IntroText";
 import Illustration from "./components/modules/Illustration";
