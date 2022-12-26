@@ -6,14 +6,23 @@
     -webkit-box-align: center
     justify-content: space-between
     -webkit-box-pack: justify
-    padding: 0 8em
+    padding: 0 4em
+    @media screen and (max-width: 47rem)
+        flex-direction: column
+        text-align: center
     figure
         width: 45%
+        @media screen and (max-width: 47rem)
+            width: 100%
+            margin-bottom: 5rem
         img
             width: 100%
 
     article
         width: 45%
+        @media screen and (max-width: 47rem)
+            width: 100%
+            margin-bottom: 5rem
         h1
             font-family: variables.$font-headings
             margin-bottom: 0.5em
