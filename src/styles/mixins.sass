@@ -15,6 +15,9 @@
     &:hover
         background-color: variables.$light-pink
         color: variables.$white
+    @media screen and (max-width: 47rem)
+        font-size: 0.9em
+        padding: 0.5em 2em
 
 @mixin button-sections
     background-color: variables.$pink
@@ -22,6 +25,7 @@
     color: variables.$white
     cursor: pointer
     font-size: 1rem
+    font-weight: 600
     padding: 1em 3em
     border: none
     transition: 0.5s ease-in-out

@@ -7,11 +7,14 @@ header
     padding: 3em 5em
     margin-bottom: 5rem
     width: 100%
+    @media screen and (max-width: 47rem)
+        padding: 2em 2em
 
     figure img
         height: 40px
+        @media screen and (max-width: 47rem)
+            height: 20px
 
     button
         background-color: transparent
         @include mixins.button-header
-        
