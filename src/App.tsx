@@ -11,11 +11,9 @@ function App() {
   return (
     <>
       <Header />
-      
       <IntroText />
       <Illustration />
-      {/*
-      <UserInfo />*/}
+      <UserInfo />
       <ContentInfo />
       <SignUp />
       <div className="bg-section-footer"></div>
