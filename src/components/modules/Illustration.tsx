@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/components/modules/illustration.sass";
+import "../../styles/modules/illustration.sass";
 import mockups from "/images/screen-mockups.svg";
 
 export default function Illustration() {

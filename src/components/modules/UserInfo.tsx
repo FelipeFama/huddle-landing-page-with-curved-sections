@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/components/modules/userInfo.sass";
+import "../../styles/modules/userInfo.sass";
 import communities from "/images/icon-communities.svg";
 import messages from "/images/icon-messages.svg";
 

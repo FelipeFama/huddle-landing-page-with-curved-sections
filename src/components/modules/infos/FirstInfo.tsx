@@ -1,6 +1,6 @@
 import React from "react";
 import grow from "/images/illustration-grow-together.svg";
-import "../../../styles/components/infos/firstInfo.sass";
+import "../../../styles/infos/firstInfo.sass";
 
 export default function FirstInfo() {
   return (

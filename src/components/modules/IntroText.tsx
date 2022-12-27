@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/components/modules/introText.sass";
+import "../../styles/modules/introText.sass";
 
 export default function IntroText() {
   return (

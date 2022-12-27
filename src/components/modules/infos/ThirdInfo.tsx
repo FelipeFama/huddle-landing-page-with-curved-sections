@@ -1,6 +1,6 @@
 import React from "react";
 import users from "/images/illustration-your-users.svg";
-import "../../../styles/components/infos/thirdInfo.sass";
+import "../../../styles/infos/thirdInfo.sass";
 
 export default function ThirdInfo() {
   return (
