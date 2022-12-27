@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/modules/userinfo.sass";
 import communities from "/images/icon-communities.svg";
 import messages from "/images/icon-messages.svg";
