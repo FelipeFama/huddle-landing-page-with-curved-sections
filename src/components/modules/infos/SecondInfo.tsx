@@ -1,6 +1,6 @@
 import React from "react";
 import flowing from "/images/illustration-flowing-conversation.svg";
-import "../../../styles/infos/secondInfo.sass";
+import "../../../styles/infos/secondinfo.sass";
 
 export default function SecondInfo() {
   return (
