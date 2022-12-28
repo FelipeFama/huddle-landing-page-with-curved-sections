@@ -1,5 +1,5 @@
 import grow from "/images/illustration-grow-together.svg";
-import "../../../styles/infos/firstinfo.sass";
+import "./style.sass";
 
 export default function FirstInfo() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/components/footer.sass";
+import "./style.sass";
 import logo from "/images/logob.svg";
 import phone from "/images/icon-phone.svg";
 import email from "/images/icon-email.svg";

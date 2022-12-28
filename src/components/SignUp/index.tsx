@@ -1,4 +1,4 @@
-import "../styles/components/signup.sass";
+import "./style.sass";
 
 export default function SignUp() {
   return (

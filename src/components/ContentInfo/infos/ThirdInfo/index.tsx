@@ -1,5 +1,5 @@
 import users from "/images/illustration-your-users.svg";
-import "../../../styles/infos/thirdinfo.sass";
+import "./style.sass";
 
 export default function ThirdInfo() {
   return (

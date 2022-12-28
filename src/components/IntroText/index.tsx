@@ -1,4 +1,4 @@
-import "../../styles/modules/introtext.sass";
+import "./style.sass";
 
 export default function IntroText() {
   return (

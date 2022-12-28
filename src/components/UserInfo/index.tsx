@@ -1,4 +1,4 @@
-import "../../styles/modules/userinfo.sass";
+import "./style.sass";
 import communities from "/images/icon-communities.svg";
 import messages from "/images/icon-messages.svg";
 

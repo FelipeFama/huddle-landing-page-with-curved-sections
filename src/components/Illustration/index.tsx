@@ -1,4 +1,4 @@
-import "../../styles/modules/illustration.sass";
+import "./style.sass";
 import mockups from "/images/screen-mockups.svg";
 
 export default function Illustration() {

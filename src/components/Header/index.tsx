@@ -1,4 +1,4 @@
-import "../styles/components/header.sass";
+import "./style.sass";
 import logo from "/images/logo.svg";
 
 export default function Header() {
