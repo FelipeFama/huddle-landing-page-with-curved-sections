@@ -12,6 +12,9 @@
         background-repeat: no-repeat
         background-size: 100% 100%
         min-height: 200px
+        @media screen and (max-width: 65rem)
+            background-size: 100% 50%
+            background-position: bottom
         @media screen and (max-width: 47rem)
             background-image: url("/images/bg-section-top-mobile-1.svg")
     .bg-section-bottom
@@ -19,6 +22,9 @@
         background-repeat: no-repeat
         background-size: 100% 100%
         min-height: 200px
+        @media screen and (max-width: 65rem)
+            background-size: 100% 50%
+            background-position: top
         @media screen and (max-width: 47rem)
             background-image: url("/images/bg-section-bottom-mobile-1.svg")
     .grow-container
@@ -29,6 +35,8 @@
         padding: 0 8em
         height: 100%
         width: 100%
+        @media screen and (max-width: 65rem)
+            padding: 0 5rem
         @media screen and (max-width: 47rem)
             flex-direction: column-reverse
             text-align: center

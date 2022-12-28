@@ -18,6 +18,10 @@
     @media screen and (max-width: 47rem)
         font-size: 0.9em
         padding: 0.5em 2em
+    @media screen and (max-width: 27rem)
+        padding: 0.3rem 1rem
+    @media screen and (max-width: 23rem)
+        padding: 1rem 4rem
 
 @mixin button-sections
     background-color: variables.$pink
@@ -42,6 +46,8 @@
     transition: 0.5s ease-in-out
     &:hover
         background-color: variables.$light-pink
+    @media screen and (max-width: 55rem)
+        padding: 1rem 2rem
     @media screen and (max-width: 47rem)
         display: block
         width: 50%

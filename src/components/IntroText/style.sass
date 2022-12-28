@@ -6,11 +6,16 @@
 
     h1
         font-family: variables.$font-headings
+        @media screen and (max-width: 23rem)
+            word-break: break-all
+            padding: 0 1rem
 
     article
-        font-size: 0.9rem
         max-width: 420px
         margin: 2em auto
+        @media screen and (max-width: 29rem)
+            padding: 0 2rem
+            max-width: 100%
 
     button
         @include mixins.button-sections
