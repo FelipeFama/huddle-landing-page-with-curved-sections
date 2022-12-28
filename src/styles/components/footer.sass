@@ -9,28 +9,38 @@ footer
     color: variables.$white
     font-size: 13px
     padding: 0 4em 3em
+    @media screen and (max-width: 47rem)
+        flex-direction: column-reverse
     .footer-container
         margin-top: -30px
         text-align: left
         width: 30%
+        @media screen and (max-width: 47rem)
+            width: 100%
         .logo-footer
             margin-left: -10px
         p
             line-height: 1.4
             margin: 0.5em 0 1.5em
             width: 25vw
+            @media screen and (max-width: 47rem)
+                width: 100%
         .phone-container
             @include mixins.center
             -webkit-box-align: center
             margin-bottom: 1em
             p
                 margin: auto 1em
+                @media screen and (max-width: 47rem)
+                    width: 100%
         .email-container
             @include mixins.center
             -webkit-box-align: center
             margin-bottom: 2em
             p
                 margin: auto 1em
+                @media screen and (max-width: 47rem)
+                    width: 100%
         .social-links
             display: flex
             list-style-type: none
@@ -42,16 +52,27 @@ footer
                     color: variables.$social-hover
     .form-footer
         width: 50%
+        @media screen and (max-width: 47rem)
+            width: 100%
         h1
             margin: 0.5em 0
         p
             max-width: 25vw
             margin-bottom: 2em
             line-height: 1.4
+            @media screen and (max-width: 47rem)
+                max-width: 100%
         input
             border-radius: 5px
             padding: 1em 3em
             margin-right: 3em
             width: 50%
+            @media screen and (max-width: 47rem)
+                width: 100%
+                margin-bottom: 1rem
         button
             @include mixins.button-footer
+
+    @media screen and (max-width: 47rem)
+        form
+            width: 100%
