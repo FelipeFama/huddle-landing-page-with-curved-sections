@@ -28,7 +28,7 @@ yarn run dev
 ## :book: Project Information
 - huddle landing page with curved sections solution frontendmentor
 
-- <p>Challenge link:<a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9"> Front end Mentor Challenge</a></p>
+- <p>Challenge link:<a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2"> Front end Mentor Challenge</a></p>
 
 - Semantic HTML5 markup
 
