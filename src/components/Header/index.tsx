@@ -1,11 +1,14 @@
 import "./style.sass";
-import logo from "/images/logo.svg";
+import { assetsProject } from "../../utils/data";
 
 export default function Header() {
   return (
     <header>
       <figure>
-        <img src={logo} alt="logo" />
+        <img
+          src={assetsProject.header.logo.source}
+          alt={assetsProject.header.logo.alt}
+        />
       </figure>
       <button>Try it free</button>
     </header>

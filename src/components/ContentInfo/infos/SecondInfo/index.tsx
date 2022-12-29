@@ -1,11 +1,14 @@
-import flowing from "/images/illustration-flowing-conversation.svg";
+import { assetsProject } from "../../../../utils/data";
 import "./style.sass";
 
 export default function SecondInfo() {
   return (
     <article className="flowing-content">
       <figure>
-        <img src={flowing} alt="illustration flowing" />
+        <img
+          src={assetsProject.contentInfo.flowing.source}
+          alt={assetsProject.contentInfo.flowing.alt}
+        />
       </figure>
       <article>
         <h1>Flowing Conversations</h1>

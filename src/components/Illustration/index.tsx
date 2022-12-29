@@ -1,10 +1,13 @@
 import "./style.sass";
-import mockups from "/images/screen-mockups.svg";
+import { assetsProject } from "../../utils/data";
 
 export default function Illustration() {
   return (
     <section className="illustration">
-      <img src={mockups} alt="mockups" />
+      <img
+        src={assetsProject.illustration.mockups.source}
+        alt={assetsProject.illustration.mockups.alt}
+      />
     </section>
   );
 }

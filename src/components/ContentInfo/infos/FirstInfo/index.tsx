@@ -1,4 +1,4 @@
-import grow from "/images/illustration-grow-together.svg";
+import { assetsProject } from "../../../../utils/data";
 import "./style.sass";
 
 export default function FirstInfo() {
@@ -15,7 +15,10 @@ export default function FirstInfo() {
           </p>
         </article>
         <figure>
-          <img src={grow} alt="illustration grow" />
+          <img
+            src={assetsProject.contentInfo.grow.source}
+            alt={assetsProject.contentInfo.grow.alt}
+          />
         </figure>
       </div>
       <div className="bg-section-bottom"></div>

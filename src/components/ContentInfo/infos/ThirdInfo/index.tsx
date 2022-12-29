@@ -1,4 +1,4 @@
-import users from "/images/illustration-your-users.svg";
+import { assetsProject } from "../../../../utils/data";
 import "./style.sass";
 
 export default function ThirdInfo() {
@@ -15,7 +15,10 @@ export default function ThirdInfo() {
           </p>
         </article>
         <figure>
-          <img src={users} alt="illustration users" />
+          <img
+            src={assetsProject.contentInfo.users.source}
+            alt={assetsProject.contentInfo.users.alt}
+          />
         </figure>
       </div>
       <div className="bg-section-bottom-2"></div>
